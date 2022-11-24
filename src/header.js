@@ -13,7 +13,7 @@ const homeNavText=document.createTextNode('Home');
 homeNav.appendChild(homeNavText);
 //create menu button
 const menuNav = document.createElement('a');
-menuNav.setAttribute('id','menu');
+menuNav.setAttribute('id','menuNav');
 topNav.appendChild(menuNav);
 const menuText=document.createTextNode('Menu');
 menuNav.appendChild(menuText);
