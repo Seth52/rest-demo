@@ -1,0 +1,49 @@
+
+body{
+    background-image: url(./assets/background.png);
+    }
+
+    html,body{
+        margin:0;
+        padding:0;
+      }
+      
+      #content{
+          background-color:rgb(255, 178, 62); overflow:auto; display:grid; margin-left:25%; 
+          margin-right: 25%; margin-top:5%; justify-content: center; border-radius: 5%; padding: 50px; padding-bottom: 225px; 
+      }
+      h1, h4{
+          display:flex; align-items: center; 
+      }
+      
+      #info{
+          border:solid 6px; border-image:linear-gradient(to right, #D37800,#FF523E);
+           border-width:6px; border-image-slice:1; padding:5px; box-shadow: 6px 5px; 
+           background-color: rgb(237, 243, 209);text-align:center; padding-bottom: 25px; 
+        }
+           
+      #hammockright{
+         height:40px; width:40px; padding-right: 5px;
+      }
+      #hammockleft{
+          height:40px; width:40px; padding-left: 5px;
+      }
+      #storestuff{
+          display:flex; justify-content: space-evenly; height: 500px; flex-direction: column;
+      }
+      #topNav{
+        background-color:rgb(255, 178, 62);
+        padding: 10px;
+        font-size:20px;
+       text-align:center;
+                
+      }
+      #topNav >*{
+        border:1px solid black;
+        padding:6px;
+      }
+      .title{
+        border:solid 6px; border-image:linear-gradient(to right, #D37800,#FF523E); 
+        border-width:6px; border-image-slice:1; padding:5px; box-shadow: 6px 5px; 
+        background-color: rgb(237, 243, 209); text-align:center; justify-content: center;
+      }
